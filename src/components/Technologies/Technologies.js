@@ -11,7 +11,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Techs</SectionTitle>
     <SectionText>
-      웹 기술에 매우 관심이 많습니다.
+      ❤️ Web ❤️
     </SectionText>
     <List>
       <ListItem>
