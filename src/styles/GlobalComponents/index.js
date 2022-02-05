@@ -279,3 +279,7 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+export const ShowingContainer = styled.div`
+  opacity:0;
+  transition: opacity 3s cubic-bezier(0.16, 1, 0.3, 1),transform 3s cubic-bezier(0.16, 1, 0.3, 1); 
+`;

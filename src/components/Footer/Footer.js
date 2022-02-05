@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import { FooterText } from '../../constants/text';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>가보지 않은 길을 두려워하지 않는 개발자</Slogan>
+          <Slogan>{FooterText}</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com">
